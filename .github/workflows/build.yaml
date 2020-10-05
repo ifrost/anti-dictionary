@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Generate index.html
+        run: node build.js
+      - name: commit
+        run: |
+          git config --local user.email "pm.jamroz@gmail.com"
+          git config --local user.name "ifrost"
+          git commit -m "Generate new dictionary" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}

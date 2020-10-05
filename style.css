@@ -1,0 +1,52 @@
+* {
+    font-family: Georgia;
+}
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+h1 {
+    font-size: 3em;
+    padding: 30px 10px 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+}
+.info {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 0.7em;
+    padding-bottom: 10px;
+    color: #898989;
+}
+.letters {
+    width: 100%;
+    text-align: center;
+}
+.entry {
+    text-align: justify;
+}
+.word {
+    font-weight: bold;
+    position: relative;
+    left: -5px;
+    display: inline-block;
+    padding-bottom: 3px;
+    size: 1.5em
+}
+.speech-part {
+    font-style: italic;
+}
+.ref {
+    color: #224498;
+    cursor: default;
+}
+.example {
+    color: #FF0000;
+    font-style: italic;
+}

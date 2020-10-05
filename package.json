@@ -1,0 +1,19 @@
+{
+  "name": "anti-dictionary",
+  "version": "0.0.1",
+  "description": "Data: \r - dictionary: https://github.com/wordset/wordset-dictionary\r - most common words: https://github.com/first20hours/google-10000-english/blob/master/google-10000-english.txt",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifrost/anti-dictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifrost/anti-dictionary/issues"
+  },
+  "homepage": "https://github.com/ifrost/anti-dictionary#readme"
+}
